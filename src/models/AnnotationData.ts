@@ -1,9 +1,21 @@
-import mongoose from "mongoose";
+import mongoose, { Schema } from "mongoose";
 
-const AnnotationDataSchema = new mongoose.Schema({
-  title: String,
-  notes: String,
-  priority: Boolean,
-});
+interface AnnotationData {
+  title: string;
+  notes: string;
+  priority: boolean;
+}
 
-export default mongoose.model("Annotations", AnnotationDataSchema);
+const AnnotationDataSchema: Schema = new mongoose.Schema(
+  {
+    title: String,
+    notes: String,
+    priority: String,
+  },
+  { versionKey: false }
+);
+
+export default mongoose.model<AnnotationData>(
+  "Annotations",
+  AnnotationDataSchema
+);
