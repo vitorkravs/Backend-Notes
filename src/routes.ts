@@ -12,5 +12,6 @@ routes.put("/annotations/:id", AnnotationController.update);
 
 //Rota Priority
 routes.get("/priorities", PriorityController.read);
+routes.put("/priorities/:id", PriorityController.update);
 
 export default routes;

@@ -10,7 +10,7 @@ const AnnotationDataSchema: Schema = new mongoose.Schema(
   {
     title: String,
     notes: String,
-    priority: String,
+    priority: Boolean,
   },
   { versionKey: false }
 );
