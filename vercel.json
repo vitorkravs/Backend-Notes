@@ -3,9 +3,5 @@
     "api/**/*.ts": {
       "runtime": "nodejs14"
     }
-  },
-  "routes": [
-    { "src": "/api/(.*)", "dest": "api/$1" },
-    { "src": "/(.*)", "dest": "/src/$1" }
-  ]
+  }
 }
