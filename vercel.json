@@ -1,7 +1,3 @@
 {
-  "functions": {
-    "api/**/*.ts": {
-      "runtime": "nodejs14"
-    }
-  }
+  "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }]
 }
