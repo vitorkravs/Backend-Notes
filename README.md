@@ -2,6 +2,8 @@
 
 Bem-vindo ao Backend-Notes, um aplicativo de notas fullstack desenvolvido por Vitor Kravs.
 
+Pode ser acessado aqui: https://backend-notes-h1rj.onrender.com
+
 ## Descrição
 
 O Backend-Notes é uma aplicação simples e eficiente para criar, visualizar e gerenciar suas notas. Este projeto é construído com uma arquitetura fullstack, utilizando Node.js para o backend, Express como framework web, e MongoDB como banco de dados NoSQL para armazenar suas notas.
