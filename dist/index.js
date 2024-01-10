@@ -201,7 +201,10 @@ dbConnection.then(() => {
 var app = (0, import_express2.default)();
 var PORT = 3333;
 app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.header(
+    "Access-Control-Allow-Origin",
+    "https://frontend-notes-two.vercel.app/"
+  );
   res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");
   res.header("Access-Control-Allow-Headers", "Content-Type");
   next();
