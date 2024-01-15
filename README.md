@@ -2,7 +2,7 @@
 
 Bem-vindo ao Backend-Notes, um aplicativo de notas fullstack desenvolvido por Vitor Kravs.
 
-Pode ser acessado aqui: https://backend-notes-h1rj.onrender.com
+Pode ser acessado aqui: https://backend-notes-h1rj.onrender.com/annotations
 
 ## Descrição
 
